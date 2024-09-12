@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 1151
+  Height = 485
+  Top = 40
+  Width = 768
+  Caption = 'Form1'
+  ClientHeight = 485
+  ClientWidth = 768
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Memo1: TMemo
+    Left = 25
+    Height = 258
+    Top = 14
+    Width = 711
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 37
+    Height = 31
+    Top = 290
+    Width = 218
+    Caption = 'Введите число:           '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = 'Segoe UI Variable Display Semib'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 39
+    Height = 31
+    Top = 367
+    Width = 216
+    Caption = 'Введите степень:       '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = 'Segoe UI Variable Display Semib'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 356
+    Height = 28
+    Top = 293
+    Width = 380
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 356
+    Height = 28
+    Top = 370
+    Width = 380
+    TabOrder = 2
+  end
+  object BitBtn1: TBitBtn
+    Left = 45
+    Height = 31
+    Top = 424
+    Width = 172
+    Caption = '&Выход'
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 356
+    Height = 40
+    Top = 424
+    Width = 208
+    Caption = 'Возвести'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+end
