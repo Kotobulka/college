@@ -1,0 +1,195 @@
+object Form1: TForm1
+  Left = 978
+  Height = 307
+  Top = 107
+  Width = 416
+  Caption = 'Form1'
+  ClientHeight = 307
+  ClientWidth = 416
+  LCLVersion = '3.2.0.0'
+  object ButtonLastClear: TButton
+    Left = 6
+    Height = 46
+    Top = 52
+    Width = 237
+    Caption = '<-'
+    TabOrder = 0
+    OnClick = Clear_LastClick
+  end
+  object Edit1: TEdit
+    Left = 6
+    Height = 44
+    Top = 8
+    Width = 403
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -26
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object ButtonDiv: TButton
+    Left = 333
+    Height = 46
+    Top = 104
+    Width = 78
+    Caption = 'Div'
+    TabOrder = 2
+    OnClick = ClickZnak
+  end
+  object ButtonMod: TButton
+    Left = 254
+    Height = 46
+    Top = 104
+    Width = 78
+    Caption = 'Mod'
+    TabOrder = 3
+    OnClick = ClickZnak
+  end
+  object ButtonClear: TButton
+    Left = 333
+    Height = 46
+    Top = 52
+    Width = 78
+    Caption = 'c'
+    TabOrder = 4
+    OnClick = ClearClick
+  end
+  object ButtonClearEntry: TButton
+    Left = 243
+    Height = 46
+    Top = 52
+    Width = 85
+    Caption = 'ce'
+    TabOrder = 5
+    OnClick = ClearEntryClick
+  end
+  object Button7: TButton
+    Left = 6
+    Height = 48
+    Top = 104
+    Width = 78
+    Caption = '7'
+    TabOrder = 6
+    OnClick = ClickBut
+  end
+  object Button8: TButton
+    Left = 90
+    Height = 46
+    Top = 104
+    Width = 78
+    Caption = '8'
+    TabOrder = 7
+    OnClick = ClickBut
+  end
+  object Button9: TButton
+    Left = 173
+    Height = 48
+    Top = 104
+    Width = 78
+    Caption = '9'
+    TabOrder = 8
+    OnClick = ClickBut
+  end
+  object ButtonUmnoz: TButton
+    Left = 256
+    Height = 46
+    Top = 155
+    Width = 77
+    Caption = '*'
+    TabOrder = 9
+    OnClick = ClickZnak
+  end
+  object ButtonMinus: TButton
+    Left = 256
+    Height = 47
+    Top = 206
+    Width = 77
+    Caption = '-'
+    TabOrder = 10
+    OnClick = ClickZnak
+  end
+  object ButtonPlus: TButton
+    Left = 254
+    Height = 46
+    Top = 257
+    Width = 78
+    Caption = '+'
+    TabOrder = 11
+    OnClick = ClickZnak
+  end
+  object Button5: TButton
+    Left = 90
+    Height = 46
+    Top = 155
+    Width = 78
+    Caption = '5'
+    TabOrder = 12
+    OnClick = ClickBut
+  end
+  object Button4: TButton
+    Left = 6
+    Height = 48
+    Top = 155
+    Width = 78
+    Caption = '4'
+    TabOrder = 13
+    OnClick = ClickBut
+  end
+  object Button1: TButton
+    Left = 6
+    Height = 46
+    Top = 206
+    Width = 78
+    Caption = '1'
+    TabOrder = 14
+    OnClick = ClickBut
+  end
+  object Button6: TButton
+    Left = 173
+    Height = 48
+    Top = 155
+    Width = 78
+    Caption = '6'
+    TabOrder = 15
+    OnClick = ClickBut
+  end
+  object Button2: TButton
+    Left = 90
+    Height = 46
+    Top = 206
+    Width = 78
+    Caption = '2'
+    TabOrder = 16
+    OnClick = ClickBut
+  end
+  object Button3: TButton
+    Left = 173
+    Height = 47
+    Top = 206
+    Width = 78
+    Caption = '3'
+    TabOrder = 17
+    OnClick = ClickBut
+  end
+  object Button0: TButton
+    Left = 6
+    Height = 46
+    Top = 256
+    Width = 245
+    Caption = '0'
+    TabOrder = 18
+    OnClick = ClickBut
+  end
+  object ButtonEqual: TButton
+    Left = 333
+    Height = 149
+    Top = 155
+    Width = 78
+    Caption = '='
+    TabOrder = 19
+    OnClick = equalClick
+  end
+end
