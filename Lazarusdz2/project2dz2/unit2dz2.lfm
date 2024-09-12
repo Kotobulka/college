@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 1126
+  Height = 519
+  Top = 105
+  Width = 796
+  Caption = 'Form1'
+  ClientHeight = 519
+  ClientWidth = 796
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Memo1: TMemo
+    Left = 8
+    Height = 228
+    Top = 7
+    Width = 754
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object StaticText1: TStaticText
+    Left = 8
+    Height = 26
+    Top = 314
+    Width = 268
+    Caption = 'Введите площадь квадрата: '
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 293
+    Height = 28
+    Top = 312
+    Width = 365
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 75
+    Top = 362
+    Width = 272
+    Caption = 'выполнить'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 20
+    Top = 248
+    Width = 653
+    Caption = 'Вычислить сторону квадрата a, диагональ b и площадь круга S1, описанного вокруг квадрата'
+  end
+  object BitBtn1: TBitBtn
+    Left = 28
+    Height = 38
+    Top = 463
+    Width = 123
+    Caption = '&Выход'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 4
+  end
+end

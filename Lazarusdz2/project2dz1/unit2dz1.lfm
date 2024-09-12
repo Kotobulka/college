@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 1223
+  Height = 493
+  Top = 7
+  Width = 684
+  Caption = 'Form1'
+  ClientHeight = 493
+  ClientWidth = 684
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 208
+    Top = 0
+    Width = 650
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 26
+    Height = 30
+    Top = 455
+    Width = 117
+    Caption = '&Выход'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+  object StaticText1: TStaticText
+    Left = 25
+    Height = 27
+    Top = 286
+    Width = 224
+    Caption = 'Введите значение а:'
+    TabOrder = 2
+  end
+  object StaticText2: TStaticText
+    Left = 25
+    Height = 27
+    Top = 336
+    Width = 224
+    Caption = 'Введите значение b:'
+    TabOrder = 3
+    OnClick = StaticText2Click
+  end
+  object Edit1: TEdit
+    Left = 272
+    Height = 28
+    Top = 285
+    Width = 287
+    TabOrder = 4
+  end
+  object Edit2: TEdit
+    Left = 272
+    Height = 28
+    Top = 328
+    Width = 287
+    TabOrder = 5
+  end
+  object StaticText3: TStaticText
+    Left = 25
+    Height = 40
+    Top = 233
+    Width = 529
+    Caption = 'решение уравнения sqrt(Pi/8) * sqrt(sqrt(a + b) / (sqr(a) + sqr(b))) - a*b*b*b; '
+    TabOrder = 6
+    OnClick = StaticText3Click
+  end
+  object Button1: TButton
+    Left = 269
+    Height = 73
+    Top = 384
+    Width = 224
+    Caption = 'вычислить'
+    TabOrder = 7
+    OnClick = Button1Click
+  end
+end
